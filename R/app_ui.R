@@ -14,8 +14,9 @@ app_ui <- function(request) {
       titlePanel("Old Faithful Geyser Data"),
       
       # analysis of Old Faithful Geyser Data
-      mod_faithful_histogram_ui("hist")
-    )
+      mod_faithful_histogram_ui("hist-waiting"),
+      mod_faithful_histogram_ui("hist-eruptions")
+      )
   )
 }
 

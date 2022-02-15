@@ -8,10 +8,12 @@
 \usage{
 mod_faithful_histogram_ui(id)
 
-mod_faithful_histogram_server(id)
+mod_faithful_histogram_server(id, variable = NULL)
 }
 \arguments{
 \item{id}{Internal parameter for {shiny}.}
+
+\item{variable}{character variable name.}
 }
 \description{
 UI and server function for an example Shiny module.
