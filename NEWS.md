@@ -1,3 +1,5 @@
+# ShinyProdWorkshopPublic (development version)
+
 # ShinyProdWorkshopPublic 0.0.1
 
 * doubled the plot (#1)

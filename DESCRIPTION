@@ -1,6 +1,6 @@
 Package: ShinyProdWorkshopPublic
 Title: Shiny4 Demo
-Version: 0.0.1
+Version: 0.0.1.9000
 Authors@R: person('Guido', 'Maggio', email = 'guido.maggio@mirai-solutions.com', role = c('cre', 'aut'))
 Description: Public Demo package for Shiny4 course
 License: MIT + file LICENSE
