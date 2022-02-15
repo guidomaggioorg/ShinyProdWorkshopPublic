@@ -10,7 +10,11 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic 
     fluidPage(
-      h1("ShinyProdWorkshopPublic")
+      # Application title
+      titlePanel("Old Faithful Geyser Data"),
+      
+      # analysis of Old Faithful Geyser Data
+      mod_faithful_histogram_ui("hist")
     )
   )
 }
