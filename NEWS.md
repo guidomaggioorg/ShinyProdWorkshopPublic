@@ -1,4 +1,4 @@
-# ShinyProdWorkshopPublic 0.0.1-9000
+# ShinyProdWorkshopPublic 0.0.1
 
 * doubled the plot (#1)
 
