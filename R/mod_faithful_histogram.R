@@ -3,6 +3,7 @@
 #' @description UI and server function for an example Shiny module.
 #'
 #' @param id Internal parameter for {shiny}.
+#' @param variable character variable name.
 #'
 #' @name mod_faithful_histogram
 #'
@@ -37,11 +38,11 @@ mod_faithful_histogram_ui <- function(id) {
 }
 
 #' @rdname mod_faithful_histogram
-mod_faithful_histogram_server <- function(id){
+mod_faithful_histogram_server <- function(id, variable = NULL){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
     # generate bins based on input$bins from ui.R
-    x    <- datasets::faithful[, "waiting"]
+    x    <- datasets::faithful[, variable]
     bins <- reactive(seq(min(x), max(x), length.out = input$bins + 1))
     
     output$distPlot <- renderPlot({
