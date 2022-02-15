@@ -4,6 +4,8 @@
 # ShinyProdWorkshopPublic
 
 <!-- badges: start -->
+
+[![CI-CD](https://github.com/guidomaggioorg/ShinyProdWorkshopPublic/workflows/CI-CD/badge.svg)](https://github.com/guidomaggioorg/ShinyProdWorkshopPublic/actions)
 <!-- badges: end -->
 
 The goal of ShinyProdWorkshopPublic is to …

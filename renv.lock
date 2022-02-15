@@ -673,6 +673,24 @@
       "Hash": "0879f5388fe6e4d56d7ef0b7ccb031e5",
       "Requirements": []
     },
+    "rmarkdown": {
+      "Package": "rmarkdown",
+      "Version": "2.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "320017b52d05a943981272b295750388",
+      "Requirements": [
+        "evaluate",
+        "htmltools",
+        "jquerylib",
+        "jsonlite",
+        "knitr",
+        "stringr",
+        "tinytex",
+        "xfun",
+        "yaml"
+      ]
+    },
     "roxygen2": {
       "Package": "roxygen2",
       "Version": "7.1.2",
@@ -846,6 +864,16 @@
         "pkgconfig",
         "rlang",
         "vctrs"
+      ]
+    },
+    "tinytex": {
+      "Package": "tinytex",
+      "Version": "0.35",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "1d7220fe46159fb9f5c99a44354a2bff",
+      "Requirements": [
+        "xfun"
       ]
     },
     "usethis": {
